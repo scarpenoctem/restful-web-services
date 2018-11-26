@@ -23,4 +23,5 @@ public class HelloWorldController {
 	public HelloWorldBean helloWorldBeanPV(@PathVariable String name) {
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
+	// Test commit
 }
